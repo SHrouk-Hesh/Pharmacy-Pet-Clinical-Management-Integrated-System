@@ -28,9 +28,10 @@ Pet clinics are regarded as one of the most essential clinics owing to the signi
 ![image](https://github.com/SHrouk-Hesh/Pharmacy-Pet-Clinical-Management-Integrated-System/assets/121517766/3e296911-d432-4eda-96d6-be580024842f)
 
 
-## CONCLUSION AND FUTURE WORK
+## CONCLUSION
 In summary, a pharmacy management system and a website are integrated with a pet clinic system developed using C#,ASP.net, MVC, HTML/CSS, jQuery/JavaScript, Facebook API. is an advanced software solution that can help veterinary clinics improve their efficiency, accuracy, and patient care. With its range of features and user-friendly interface, this system can streamline the management of pet health and medication, allowing veterinary staff to focus on providing quality care to their patients and their owners. Additionally, our work provided visual representations of the system through UML and sequence diagrams, as well as a high-level architecture overview, showcasing the system components, interfaces, databases, and transfer protocols. Overall, our designed system has successfully addressed the veterinarian's workflow management and pet tracking needs. The integration with the pharmacy and web clinic website has enhanced the application's capabilities and provided a comprehensive solution for veterinary clinics.
 
+## FUTURE WORK & Suggestions
 In our future work, enhancements and improvements to the desktop application will be added like developing a mobile application version of the veterinary management system to provide veterinarians and staff with on-the-go access to critical information, such as appointment updates, patient records, and prescription management. In addition to, telemedicine Integration explores the integration of telemedicine capabilities within the application to allow veterinarians to remotely diagnose and treat certain conditions. This would provide convenience for pet owners and expand the reach of veterinary care.
 
 
