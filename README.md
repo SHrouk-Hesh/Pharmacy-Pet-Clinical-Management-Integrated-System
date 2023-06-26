@@ -34,5 +34,4 @@ In summary, a pharmacy management system and a website are integrated with a pet
 ## FUTURE WORK & Suggestions
 In our future work, enhancements and improvements to the desktop application will be added like developing a mobile application version of the veterinary management system to provide veterinarians and staff with on-the-go access to critical information, such as appointment updates, patient records, and prescription management. In addition to, telemedicine Integration explores the integration of telemedicine capabilities within the application to allow veterinarians to remotely diagnose and treat certain conditions. This would provide convenience for pet owners and expand the reach of veterinary care.
 
-
-![image](https://github.com/SHrouk-Hesh/Pharmacy-Pet-Clinical-Management-Integrated-System/assets/121517766/c62136d7-c0e1-4d81-a9cb-9fb60ab99baf)
+![gif](https://github.com/SHrouk-Hesh/Pharmacy-Pet-Clinical-Management-Integrated-System/assets/121517766/2bf5a127-f202-4a54-b973-0669567285cd)
