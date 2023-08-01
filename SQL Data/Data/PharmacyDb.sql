@@ -1,0 +1,2 @@
+SET IDENTITY_INSERT PetsPrescriptions ON
+SET IDENTITY_INSERT PetsMedicines Off
