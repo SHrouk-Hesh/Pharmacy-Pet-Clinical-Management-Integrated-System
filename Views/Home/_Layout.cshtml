@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+@ViewBag.Title
+    </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
+    <link rel="shortcut icon" href="/Images/favico.ico" />
+    <link href="/Styles/skin-min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="/Scripts/skin-min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="@ViewBag.Description">
+    <meta name="keywords" content="veterinarian, veterinary hospital, Animal Hospital, cat spay/neuter, dog spay/neuter, dentistry, vaccination, Netmarket, pet hospital, parasites control, flea Control, pet food, microchipping">
+    <meta name="author" content="Dr. Sahar Fawzy">
+</head>
+<body>
+    <div id="container" class="width">
+        <header>
+            <div>
+                <a class="spacing-right inline-block left" href="/">
+                    <img alt="Vet For Every Pet | Pharmacy & Pet Clinical Management System | Vaccination, Spay, Neuter, Pet Services" src="~/Images/logo.png" />
+                </a>
+
+                <div><a class="unselectable title" href="/"> Vet For Every Pet Hospital</a></div>
+                <h1 class="italic left bold spacing-top subtitle" style="color:#575656;">
+                    <strong>Veterinary Hospital</strong>
+                </h1>
+
+                <div class="right-content right">
+                    <span class="bigger bold" style="margin-right:5px; font-size:25px;">(+20) 12054</span>
+                    <div class="inline-block">
+                        <a target="_blank" href="https://www.facebook.com/pages/Brooker-Ridge-Animal-Hospital/1480573945503138" class="inline-block">
+                            <img alt="Facebook - Vet For Every Pet | Brooker Ridge Animal Hospital | Vaccination, Spay, Neuter, Pet Services" src="~/Images/facebook-small.gif" />
+                        </a>
+                        <a target="_blank" href="https://plus.google.com/+BrookerRidgeAnimalHospitalNewmarket" class="inline-block">
+                            <img alt="Google+ - Vet For Every Pet | Brooker Ridge Animal Hospital | Vaccination, Spay, Neuter, Pet Services" src="~/Images/google-plus.png" />
+                        </a>
+                        <a target="_blank" href="https://twitter.com/branimalh" class="inline-block">
+                            <img alt="Twitter - Vet For Every Pet |  Brooker Ridge Animal Hospital | Vaccination, Spay, Neuter, Pet Services" src="~/Images/twitter.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav id='cssmenu' class="width clear">
+                <ul>
+                    <li class="start">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="has-sub">
+                        <a href="/services">Services</a>
+                        <ul>
+                            <li>
+                                <a href="/preventive_care_and_treatments">Preventive Care & Treatments</a>
+                            </li>
+                            <li>
+                                <a href="/surgical_services">Surgical Services</a>
+                            </li>
+                            <li>
+                                <a href="/dentistry">Dentistry</a>
+                            </li>
+                            <li>
+                                <a href="/diagnostic_equipment">Diagnostic Equipment</a>
+                            </li>
+                            <li>
+                                <a href="/grooming_and_boarding">Grooming & Boarding</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/resources">Resources</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
+                        <ul>
+                            <li>
+                                <a href="/contact">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="/contact#appointment">Appointment</a>
+                            </li>
+                            <li>
+                                <a href="/contact#medication_food">Medication/Food</a>
+                            </li>
+                            <li>
+                                <a href="/jobs">Jobs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        <a href="/articles">Our Team</a>
+                    </li>
+                    <li class="">
+                        <a href="/about">About Us</a>
+                    </li>
+                    <li class="bold end" style="background-color:orange; color:white; ">
+                        <a href="/contact#appointment">Book Appointment</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="body" class="full-width">
+            @RenderBody()
+        </div>
+        <div class="clear  empty-spacing-plus"></div>
+        <footer class="full-width">
+            <address>
+                <p class="full-width bold">
+                    ©2023. Nile University, Sheikh Zayed, Giza, Egypt -- Mon-Sat: 9:30am–5:30pm(5pm Sat).
+                </p>
+            </address>
+        </footer>
+    </div>
+</body>
+</html>
