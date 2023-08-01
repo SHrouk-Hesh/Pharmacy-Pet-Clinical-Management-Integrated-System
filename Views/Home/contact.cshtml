@@ -1,0 +1,112 @@
+﻿﻿
+<section id="content" class="center">
+    <h1 class="spacing-bottom">Contact Us</h1>
+    <section id="map" class="spacing full-width">
+        <h4 class="spacing">Location</h4>
+        <div class="center-content full-width">
+            <iframe class="full-width" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2868.5980544908793!2d-79.448113!3d44.02969999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNewmarket%2C+ON+L3X+2M2!5e0!3m2!1sen!2sca!4v1421740743836" width="600" height="450" frameborder="0" style="border:0"></iframe>
+        </div>
+    </section>
+    <section class="spacing full-width">
+        <h4>Contact Details</h4>
+        <div>
+            <address>
+                Phone: <a href="tel:012054">(+20) 120-54</a><br />
+                Fax: <a href="mailto:sfawzi@nu.edu.eg">sfawzi@nu.edu.eg</a><br />
+                Email: <a href="mailto:Shr.Hesham@nu.edu.eg">Shr.Hesham@nu.edu.eg</a><br />
+                Address: Nile University, Sheikh Zayed, Giza, Egypt
+                <br />Work Hours Time: Mon-Fri:9:30am – 5:30pm, Sat: 9:30am – 5pm.
+            </address>
+        </div>
+    </section>
+    <section class="spacing semi-full-width">
+        <h4>Form</h4>
+        <p class="big">
+            Complete the form below and wait for us to call you or send you a confirmation email.
+            If you have an inquiry regarding our services, we will be happy to answer all questions.<br />
+            (<span class="required">*</span>) indicates a required field for inquiry only.
+        </p>
+        <form id="formcontact" method="post" class="semi-full-width" action="/contact_post">
+            <fieldset class="full-width">
+                <legend>Pet Owner Information</legend>
+                <p required><label>First Name</label><span></span><input type="text" name="fname" required /></p>
+                <p required><label>Last Name</label><span></span><input type="text" name="lname" required /></p>
+                <p><label>Telephone </label><span></span><input type="text" name="phone" /></p>
+                <p><label>E-mail </label><span></span><input type="email" name="email" /></p>
+                <p><label>Address </label><span></span><input type="text" name="address" /></p>
+                <p><label>City, Postal Code </label><span></span><input type="text" name="city_postalcode" /></p>
+            </fieldset>
+
+            <fieldset class="full-width">
+                <legend>Pet Information</legend>
+                <p required><label>Pet's Name </label><span></span><input type="text" name="pname" required /></p>
+                <p required>
+                    <label>Species</label><span class="spacing-right"></span>
+                    <input type="radio" name="species" value="dog" checked><span>Dog</span>
+                    <input type="radio" name="species" value="cat"><span>Cat</span>
+                    <input id="otherInput" type="radio" name="species" value="cat"><span>Other</span> <input id="otherInputText" type="text" name="species" style="width:60px;">
+                </p>
+                <p required>
+                    <label>Gender/Spay</label><span class="spacing-right"></span>
+                    <input id="male" type="radio" name="gender" value="male" checked /><span>Male</span>
+                    <input id="female" type="radio" name="gender" value="female" /><span>Female</span>
+                    <input id="spayedmale" type="radio" name="gender" value="spayedmale" /><span>Spayed Male</span>
+                    <input id="spayedfemale" type="radio" name="gender" value="spayedfemale" /><span>Spayed Female</span>
+                </p>
+                <p><label>Breed/Color</label><span></span><input type="text" name="breed_color" /></p>
+                <p><label>Age</label><span></span><input type="text" name="age" /></p>
+                <p><label>Approx. Weight</label><span></span><input type="text" name="weight" /></p>
+            </fieldset>
+
+            <div class="tabs full-width">
+                <a id="contact_us" href="#" data-tab="1" class="tab active">Contact Us</a>
+                <a id="appointment" href="#" data-tab="2" class="tab">Appointment</a>
+                <a id="medication_food" href="#" data-tab="3" class="tab">Medication/Food</a>
+
+                <div id="contact_us_tab" data-content="1" class="content active full-width">
+                    <fieldset class="full-width">
+                        <p required><label>Message</label><span></span><textarea name="message" required></textarea></p>
+                    </fieldset>
+                </div>
+                <div id="appointment_tab" data-content="2" class="content full-width">
+                    <fieldset class="full-width">
+                        <legend>Check Service</legend>
+                        <label>Options</label>
+                        <p>
+                            <div class="inline-block"><input type="checkbox" name="vaccination" /><span>Vaccination</span></div>
+                            <div class="inline-block">
+                                <input type="checkbox" name="examination" /><span>Examination</span>
+                            </div>
+                            <div class="inline-block">
+                                <input type="checkbox" name="diagnostic" /><span>Diagnostic/Heartworm test</span>
+                            </div>
+                            <div class="inline-block">
+                                <input type="checkbox" name="quotes" /><span>Quotes</span>
+                            </div>
+                            <div class="inline-block">
+                                <input type="checkbox" name="euthanasia" /><span>Euthanasia</span>
+                            </div>
+                            <div class="inline-block"><input type="checkbox" name="surgery" /><span>Surgery</span></div>
+                        </p>
+                        <p>
+                            <label>Note</label><span></span>
+                            <textarea name="anote"></textarea>
+                        </p>
+
+                    </fieldset>
+                </div>
+                <div id="medication_food_tab" data-content="3" class="content full-width">
+                    <fieldset class="full-width">
+                        <p required><label>Medication/Food Name</label><span></span><input type="text" name="mfname" /> </p>
+                        <p required><label>Medication/Food Quantity</label><span></span><input type="text" name="mfquantity" /> </p>
+                        <p>
+                            <label>Note</label><span></span>
+                            <textarea name="mfnote"></textarea>
+                        </p>
+                    </fieldset>
+                </div>
+            </div>
+            <p><button id="formsubmit" type="submit" class="formbutton">Send</button></p>
+        </form>
+    </section>
+</section>
